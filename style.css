@@ -48,7 +48,7 @@ a {
 
 .intro-text h2{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: 0px;
 }
@@ -77,6 +77,12 @@ button {
     align-items: center;
 }
 
+.images-section h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;   
+}
+
 .image-single img{
     width: 200px;
     height: 200px;
@@ -92,7 +98,8 @@ button {
     align-items: center;
     max-width: 200px;
     text-align: center;
+    font-size: 18px;
 }
 .image-single img:hover {
-    opacity: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
