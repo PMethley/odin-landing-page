@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: white;
@@ -102,4 +104,28 @@ button {
 }
 .image-single img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    padding: 60px 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-section .quote-origin {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-align: end;
+    align-self: flex-end;
+    margin: 0px;
+}
+
+.quote-section .quote {
+    margin: 22px;
 }
